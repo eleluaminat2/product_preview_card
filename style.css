@@ -1,0 +1,92 @@
+   
+   *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+   }
+   body{
+      font-family: sans-serif;
+      background-color: rgba(239, 239, 240, 0.959);
+      margin: 10px 0 10px 0;
+   }
+   .main{
+      background-color: rgba(239, 239, 240, 0.959);
+      display: flex;
+      height: 100vh;
+      margin: 20px 0 20px 0;
+      
+   }   
+   .container{
+      width: 100%;
+      background-color:  white;
+      border-radius: 10px;
+      margin: auto;
+      font-weight: 500px;
+      padding-bottom: 15px;
+      max-width: 350px;
+   }
+   .image img{
+      width: 100%;
+      border-top-right-radius: 10px;
+      border-top-left-radius: 10px;
+   }
+   .perfume{
+      color:  hsl(228, 12%, 48%);
+      padding: 20px 0  0 20px;
+      letter-spacing: 5px;
+   }
+   h1{
+      color: hsl(212, 21%, 14%);
+      padding: 0 5px 10px 10px;
+      margin: 5px;
+      padding-top: 5px;
+   }
+   .text{
+      color: hsl(228, 12%, 48%);
+      padding: 0 5px 20px 20px;
+      /*padding-top: 5px;*/
+      font-size: 14px;
+   }
+   .flex{
+      display: flex;
+      align-items: center;
+      padding: 0 0 20px  20px;
+      gap: 1rem;
+   }
+   .price{
+      color:  hsl(158, 84%, 24%);
+      font-weight: bolder;
+      font-size: 40px;
+      padding-top: 5px;
+   }
+   .price1{
+      color:  hsl(228, 12%, 48%);
+      text-decoration: line-through;
+   }
+   .cart{
+      
+   }
+   .add{
+      background: #000;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: .4rem;
+      border-radius: 10px;
+      background-color:  hsl(158, 36%, 37%);
+      color: hsl(30, 38%, 92%);
+      width: 90%;
+      margin: 0 auto;
+      outline: none;
+      border: none;
+      padding: 15px;
+   }
+   .attribution { 
+      font-size: 11px;
+      text-align: center;
+       padding-top: 20px;
+       }
+    .attribution a { 
+      color: hsl(228, 45%, 44%);
+    }
+  
